@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>image</title>
+    </head>
+    <body>
+        <img class="myimg" src="C:\react\javascripttask\wallpaper.png" alt="wallpaper" style="width: 200px;height: 200px;" />
+        <button class="btn1" onclick="fun()">click me</button><br>
+        <div class="mydiv" style="width: 200px;height: 200px;background-color: aliceblue;border: 2px solid black;"></div>
+        <button class="btn1" onclick="blue()">blue</button>
+        <button class="btn1" onclick="orange()">orange</button>
+        <button class="btn1" onclick="yellow()">yellow</button>
+        <button class="btn1" onclick="green()">green</button>
+       
+        
+        <script>
+         function fun(){
+           console.log(document.getElementsByClassName("myimg")[0].src="./lap.png");
+          }
+          function blue(){
+            document.getElementsByClassName("mydiv")[0].style="background-color:blue;position:absolute"
+          }
+          function orange(){
+            document.getElementsByClassName("mydiv")[0].style.backgroundColor="orange";
+          }
+          function yellow(){
+            document.getElementsByClassName("mydiv")[0].style.backgroundColor="yellow";
+          }
+          function green(){
+            document.getElementsByClassName("mydiv")[0].style.backgroundColor="green";
+          }
+        </script>
+    </body>
+</html>

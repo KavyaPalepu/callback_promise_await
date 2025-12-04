@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="menu.css"/>
+        <title>menu</title>
+    </head>
+    <body>
+        <div class="menubar" onclick="menubar()">&#9776</div>
+        <div class="menu">
+          
+            <div class="exit" onclick="exit()">&times</div>
+            <div class="look">Home</div>
+            <div class="look">About</div>
+            <div class="look">Contact</div>
+            <div class="look">Pricing</div>
+            <div class="look">Services</div>
+        </div>
+        <script>
+            function exit(){
+                document.getElementsByClassName("menu")[0].style.display="none";
+            }
+            function menubar(){
+                 document.getElementsByClassName("menu")[0].style.display="block";
+            }
+        </script>
+    </body>
+</html>

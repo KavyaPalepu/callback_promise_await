@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+}
+.parent{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.minute{
+     width: 150px;
+    height: 150px;
+    background-color: white;
+     border-radius: 10px;
+     font-size: 100px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.seconds{
+      width: 150px;
+    height: 150px;
+    background-color: white;
+     border-radius: 10px;
+      font-size: 100px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     display: flex;
+     align-items: center;
+      justify-content: center;
+}
