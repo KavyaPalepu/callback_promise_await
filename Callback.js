@@ -14,32 +14,7 @@
 
 
 
-// const mypromise=new Promise((resolve,reject)=>{
-//     if(true){
-//         console.log("if executed");
-//         resolve("successfully complete");
-//     }
-//     else{
-//         console.log("else executed");
-//         resolve("api failed")
-//     }
-// })
-// mypromise.then((result)=>console.log(result))
-// .catch((error)=>console.log(error));
 
 
 
-function getUserDetails(id){
-    return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            resolve({userroll:"678"})
-        },2000);
-    })
-};
-const myfun=async()=>{
-    console.log("123")
-    const result = await getUserDetails("123");
-    console.log(result);
-    console.log("456")
-};
-myfun();
+
